@@ -30,9 +30,9 @@
                 <label for="publicKeyFile" class="mt-2">Public Key:</label>
                 <input type="file" id="publicKeyFile" class="form-control" accept=".asc">
                 
-                <label for="signature" class="mt-2 mb-1">Paste the Sign:</label>
+                <label for="signature" class="mt-2 mb-1">Paste the Signature:</label>
                 <div class="input-group">
-                    <textarea id="signature" class="form-control signature-field" placeholder="Sign"></textarea>
+                    <textarea id="signature" class="form-control signature-field" placeholder="Signature"></textarea>
                     <button class="btn btn-secondary btn-icon" onclick="pasteSignature()">
                         <i class="fa-solid fa-paste"></i>
                     </button>
@@ -54,7 +54,7 @@
                 
                 <button class="btn btn-primary mt-1" onclick="signText()">Sign</button>
                 
-                <label for="signatureResult" class="mt-2 mb-1">Generated Sign:</label>
+                <label for="signatureResult" class="mt-2 mb-1">Generated Signature:</label>
                 <div class="input-group">
                     <textarea id="signatureResult" class="form-control signature-field" readonly></textarea>
                     <button class="btn btn-secondary btn-icon" onclick="copySignature()">
